@@ -2,6 +2,9 @@
 using namespace std;
 int main(){
 	// int rollno=50;
+
+	// int rollno;
+	// cin>>rollno;
 	// // comaprison ==-->relational operator
 
 	// // syntax
@@ -45,6 +48,7 @@ int main(){
 	// 	cout<<"i will gift you a phone"<<endl;
 
 	// }
+
 	// else if(rollno==70){
 	// 	cout<<"i will gift you an earphone"<<endl;
 
@@ -82,29 +86,114 @@ int main(){
 	// }
 
 // non zero value-->true
-	if(-9){
-		cout<<"coding blcoks"<<endl;
+	// if(-9){
+	// 	cout<<"coding blcoks"<<endl;
+	// }
+	// else{
+	// 	cout<<"hello world"<<endl;
+
+	// }
+
+	// if(93){
+	// 	cout<<"coding blcoks"<<endl;
+	// }
+	// else{
+	// 	cout<<"hello world"<<endl;
+
+	// }
+
+	// if(0){
+	// 	cout<<"coding blocks"<<endl;
+	// }
+	// else{
+	// 	cout<<"hello world"<<endl;
+
+	// }
+
+
+
+	// logical opertors
+	// int age;
+
+	// // && agar pehla hi condition false hota hai baki ki condition wo execute nahi hoti
+	// cin>>age;//30
+	// if(age==30 and age<=50){
+
+	// if(age==30 && age<=50 &&age<=40 &&age>=20){
+	// 	cout<<"hello"<<endl;
+
+	// }
+	// else if(age==50&&age>=50){
+	// 	cout<<"world"<<endl;
+	// }
+	// else{
+	// 	cout<<"cb"<<endl;
+	// }
+
+
+	// if(age==30 || age<=50){
+	// 	cout<<"hello"<<endl;
+
+	// }
+	// else if(age==50 or age>=50){
+	// 	cout<<"world"<<endl;
+	// }
+	// else{
+	// 	cout<<"cb"<<endl;
+	// }
+
+
+	// if(!false){
+	// 	cout<<"laptop"<<endl;
+
+	// }
+	// else{
+	// 	cout<<"phone"<<endl;
+	// }
+
+
+	// if(!true){
+	// 	cout<<"laptop"<<endl;
+
+	// }
+	// else{
+	// 	cout<<"phone"<<endl;
+	// }
+
+
+	int a;
+	cin>>a;//34 60
+// nested if else
+	if(a==34){
+		// ===========================
+		if(a>=40){
+			cout<<"i am a coder"<<endl;
+
+		}
+		else{
+			cout<<"hello world i am there"<<endl;
+
+		}
+
+		// ===========================
+		
+
 	}
 	else{
-		cout<<"hello world"<<endl;
+		if(a>=60){
+			cout<<"value is greater than 60"<<endl;
+
+
+		}
+		else{
+			cout<<"value is not greater than 60"<<endl;
+
+		}
 
 	}
 
-	if(93){
-		cout<<"coding blcoks"<<endl;
-	}
-	else{
-		cout<<"hello world"<<endl;
 
-	}
 
-	if(0){
-		cout<<"coding blcoks"<<endl;
-	}
-	else{
-		cout<<"hello world"<<endl;
-
-	}
 
 
 
