@@ -1,0 +1,14 @@
+char ch;
+	cin>>ch;//'R' 'f'  '?'
+	 // uppercase-->A to Z
+	// impilicit type conversion
+	if(ch>=65&&ch<=90){
+		// if(102>=65&&102<=90){
+		// 	if(82>=65&&82<=90){
+
+		cout<<"UPPERCASE"<<endl;
+	}
+	
+	else{
+		cout<<"invalid character"<<endl;
+	}
